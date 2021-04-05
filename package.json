@@ -1,0 +1,29 @@
+{
+  "name": "drop-down-menu",
+  "version": "1.0.0",
+  "description": "Create drop down menus and publish them on npm to for later reuse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbit27/drop-down-menu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbit27/drop-down-menu/issues"
+  },
+  "homepage": "https://github.com/vbit27/drop-down-menu#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "2.2.1",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.1.0"
+  }
+}
