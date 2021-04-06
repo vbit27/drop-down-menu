@@ -27,15 +27,14 @@ li {
 
 .main-menu {
   position: relative;
-  background-color: rgb(212, 212, 212);
   padding: 0.5rem;
   border-radius: 5px;
   font-size: 1.2rem;
 }
 
-.main-menu ul {
+.drop-menu {
   position: absolute;
-  background-color: blanchedalmond;
+  background-color: rgb(241, 241, 241);
   margin-top: 10px;
   width: 5rem;
   height: 7rem;
@@ -46,7 +45,15 @@ li {
   border-radius: 5px;
 }
 
+.main-menu ul {
+}
+
 /*
+.main-menu:hover > .drop-menu {
+  display: flex;
+}
+
+
 .drop-menu li {
   display: none;
 }

@@ -1,17 +1,18 @@
 const menuItems = document.querySelectorAll('.main-menu');
 const dropMenu = document.querySelectorAll('.drop-menu');
 
-function toggleClass() {
-  this.querySelector('ul').classList.toggle('hi');
+function display() {
+  this.querySelector('ul').setAttribute('display', 'flex');
+}
+
+function hide() {
+  this.querySelector('ul').setAttribute('display', 'none');
 }
 
 menuItems.forEach((item) => {
-  item.addEventListener('mouseover', toggleClass);
+  item.addEventListener('mouseover', display);
 });
 
 menuItems.forEach((item) => {
-  item.addEventListener('mouseout', toggleClass);
+  item.addEventListener('mouseout', hide);
 });
-
-console.log(menuItems);
-console.log(dropMenu);
