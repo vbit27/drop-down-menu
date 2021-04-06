@@ -24,6 +24,8 @@
     "webpack-cli": "^4.6.0"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.1.0"
-  }
+    "eslint-config-prettier": "^8.1.0",
+    "webpack": "^5.30.0"
+  },
+  "keywords": []
 }

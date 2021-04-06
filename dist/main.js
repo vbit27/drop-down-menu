@@ -1,1 +1,1 @@
-console.log("hi");
+(()=>{const e=document.querySelectorAll(".main-menu"),o=document.querySelectorAll(".drop-menu");function t(){this.querySelector("ul").classList.toggle("hi")}e.forEach((e=>{e.addEventListener("mouseover",t)})),e.forEach((e=>{e.addEventListener("mouseout",t)})),console.log(e),console.log(o)})();
