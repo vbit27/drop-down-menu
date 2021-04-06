@@ -38,11 +38,15 @@ li {
   margin-top: 10px;
   width: 5rem;
   height: 7rem;
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   border-radius: 5px;
+  display: none;
+}
+
+.drop-menu.visible {
+  display: flex;
 }
 
 .main-menu ul {
