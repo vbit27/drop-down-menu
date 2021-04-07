@@ -21,10 +21,12 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "prettier": "2.2.1",
+    "style-loader": "^2.0.0",
     "webpack-cli": "^4.6.0"
   },
   "dependencies": {
     "eslint-config-prettier": "^8.1.0",
+    "toggle-menu-v90": "^2.0.0",
     "webpack": "^5.30.0"
   },
   "keywords": []

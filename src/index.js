@@ -1,11 +1,1 @@
-const toggleMenu = (() => {
-  const menuItems = document.querySelectorAll('.main-menu');
-
-  function display() {
-    this.querySelector('ul').classList.toggle('visible');
-  }
-
-  menuItems.forEach((item) => {
-    item.addEventListener('click', display);
-  });
-})();
+import { toggleMenu } from 'toggle-menu-v90';
