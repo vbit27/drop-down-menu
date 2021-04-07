@@ -27,21 +27,23 @@ li {
 
 .main-menu {
   position: relative;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 5px;
   font-size: 1.2rem;
+  background-color: rgb(231, 231, 231);
 }
 
 .drop-menu {
   position: absolute;
+  top: 100%;
+  left: 0%;
   background-color: rgb(241, 241, 241);
-  margin-top: 10px;
-  width: 5rem;
-  height: 7rem;
+  width: 100%;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   border-radius: 5px;
+  text-align: center;
   display: none;
 }
 
@@ -49,24 +51,12 @@ li {
   display: flex;
 }
 
-.main-menu ul {
-}
-
-/*
-.main-menu:hover > .drop-menu {
-  display: flex;
-}
-
-
 .drop-menu li {
-  display: none;
+  width: 100%;
+  padding: 0.2em 0;
+  align-self: center;
 }
 
-.drop-menu li .visible {
-  display: flex;
+.drop-menu li:hover {
+  background-color: grey;
 }
-
-li:hover > .drop-menu li {
-  display: flex;
-}
-*/

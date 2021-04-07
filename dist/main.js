@@ -1,1 +1,1 @@
-(()=>{const e=document.querySelectorAll(".main-menu");function o(){this.querySelector("ul").classList.toggle("visible")}document.querySelectorAll(".drop-menu"),e.forEach((e=>{e.addEventListener("mouseover",o)}))})();
+(()=>{function e(){this.querySelector("ul").classList.toggle("visible")}document.querySelectorAll(".main-menu").forEach((l=>{l.addEventListener("click",e)}))})();
